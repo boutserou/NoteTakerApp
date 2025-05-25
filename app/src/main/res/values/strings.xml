@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Notepad</string>
+    <string name="title">Title</string>
+    <string name="enter_notes_here">Enter notes here...</string>
+    <string name="title2">Title</string>
+    <string name="saved_succesfully">Saved succesfully</string>
+</resources>

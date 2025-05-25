@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Notepad" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/background</item>
+        <item name="colorPrimaryContainer">@color/pinkish</item>
+        <item name="colorOnPrimaryContainer">@color/colorPrimary1</item>
+        <item name="colorOnPrimary">@color/colorPrimary2</item>
+
+        <item name="android:windowBackground">@color/background</item>
+        <item name="android:statusBarColor">@color/pinkish</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Notepad" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/background</item>
+        <item name="colorPrimaryContainer">@color/pinkish</item>
+        <item name="colorOnPrimaryContainer">@color/colorPrimary1</item>
+        <item name="colorOnPrimary">@color/colorPrimary2</item>
+
+        <item name="android:statusBarColor">@color/pinkish</item>
+    </style>
+</resources>

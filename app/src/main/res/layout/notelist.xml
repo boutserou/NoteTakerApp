@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white_ish"
+    android:id="@+id/note_container"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="10dp"
+    android:layout_margin="5dp"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/View_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:fontFamily="cursive"
+                android:text="Title"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/pinkish"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:singleLine="true"
+                android:ellipsize="end"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/View_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:padding="5dp"
+            android:text="Notes here"
+            android:textColor="@color/pinkish"
+            android:textSize="28sp"
+            android:textStyle="bold|italic"
+            android:maxLines="4"
+            />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
